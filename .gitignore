@@ -1,0 +1,28 @@
+# Telegram user sessions contain account authorization data.
+*.session
+*.session-journal
+*.session-wal
+*.session-shm
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+work/
+data/
+outputs/
+*.db
+*.db-wal
+*.db-shm
+*.lockfile
+# BotFather credentials (plain token file supported by the CLI).
+bot_token.txt
+
+# Local macOS metadata.
+.DS_Store
